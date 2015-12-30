@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title>Watchful Protector</title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <link rel="stylesheet" href="bootstrap.min.css"> 
+	    <link rel="shortcut icon" type= "image/png" href= "HAL.png"/>
+	    <link rel="stylesheet" type="text/css" href="styles.css">
+    	<script src="Security.js"></script>
+	</head>
+	
+	<body>
+    	<nav class="navbar navbar-default">
+    	    <div class="container-fluid">
+	            <!-- Logo -->
+    	        <div class="navbar-header">
+        	        <a href="#" class="navbar-brand">WATCHFUL PROTECTOR</a>
+        	    </div>
+        	    
+        	    <!-- Menu -->
+            	<div>
+   		            <ul class="nav navbar-nav">
+        	        	<li><a href="options.html">Set Time</a></li>
+            	    	<li ><a href="Add.html">Add/Remove Sites</a></li>
+                	    <li class="active"><a href="Security.html">Security</a></li>
+                    	<li ><a href="Clearance.html">Clearance</a></li>
+        	            <li ><a href="Statistics.html">Statistics</a></li>
+
+        	        </ul>
+        	    </div>
+       		</div>
+    	</nav>
+
+	    <div class="centered"> 
+			<h1>Security Level</h1>
+			
+			<form name="myform">
+			&emsp;<input type="radio" name="security_level" value="Level_0"> Security Level 0: Curious
+			<br>&emsp;"Just using this for a web history analyzer" <br><br>
+			&emsp;<input type="radio" name="security_level" value="Level_1">&emsp;Security Level 1: Go-Getter
+			<br>&emsp;"I'm open to self-improvement" <br><br>
+			&emsp;<input type="radio" name="security_level" value="Level_2">&emsp;Security Level 2: Revolutionary
+			<br>&emsp;"I want to improve my lifestyle significantly" <br><br>
+			&emsp;<input type="radio" name="security_level" value="Level_3">		&emsp;Security Level 3: Ninja
+			<br>&emsp;"Goodbye procrastination. Hello transcendence!" <br><br>
+			</form>
+		
+			<h4 id="current_level_message"></h4>
+			<p id="response_choice_message"></p>
+			<p id= "inject_submit"></p>
+			<p id= "text_insert"></p>
+			<p id= "text_build"></p>
+   		</div> 
+	</body>
+</html>

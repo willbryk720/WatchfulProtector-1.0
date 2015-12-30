@@ -1,0 +1,15 @@
+#text_build { 
+     font-weight: bold;
+     font-size : 20px;
+     word-wrap: break-word;
+}
+
+#clock_popup { 
+     font-size : 50px;
+}
+
+.centered {
+	text-align:center
+}
+
+
