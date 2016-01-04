@@ -16,7 +16,7 @@ Lastly, to end with an ode to batman: "Because he's not our hero. He's a silent 
 
 Good luck with the battle!
 
-
+Download in the Chrome Web Store: https://chrome.google.com/webstore/detail/watchful-protector/konhmmbcghkjjlnbpmioknbjpdnhlefb?hl=en
 
 INSTRUCTIONS:
 
